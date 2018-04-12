@@ -3,7 +3,7 @@
     <h1>ADD</h1>
 </section>
 <div class="addNews">
-    <form action="https://young-reef-81088.herokuapp.com/index.php?<?= (!empty($_POST['id']) || !empty($_GET['id']) ) ? 'action=edit' : 'action=add'?>" method="post" enctype = "multipart/form-data">
+    <form action="https://floating-sierra-58793.herokuapp.com/index.php?<?= (!empty($_POST['id']) || !empty($_GET['id']) ) ? 'action=edit' : 'action=add'?>" method="post" enctype = "multipart/form-data">
         <input type="hidden" name = "id" value="<?=($mas) ? $mas['id'] : $_POST['id']?>" >
         <div class="name article">
             <label>Add name artcile</label>

@@ -7,7 +7,7 @@ if($_GET['id']){
 $goods_id = abs((int)$_POST['goods_id']);
 if($goods_id) {
 	addtocart($goods_id);
-	header("Location: https://young-reef-81088.herokuapp.com/index.php?action=shop");
+	header("Location: https://floating-sierra-58793.herokuapp.com/index.php?action=shop");
 }
 
 function addtocart($goods_id, $qty = 1){

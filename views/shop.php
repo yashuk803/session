@@ -7,7 +7,7 @@
 <div class="boxProduct">
 <div class="content product">
     <div class="boxItem">
-        <form action="https://young-reef-81088.herokuapp.com/index.php?action=bascet" method="post">
+        <form action="https://floating-sierra-58793.herokuapp.com/index.php?action=bascet" method="post">
         <input type="hidden" name = "goods_id" value="1">
         <img src="../asset/img/item1.png">
         <div class="description">Iron | 250 cm</div>
@@ -19,7 +19,7 @@
 
     </div>
      <div class="boxItem">
-        <form action="https://young-reef-81088.herokuapp.com/index.php?action=bascet" method="post">
+        <form action="https://floating-sierra-58793.herokuapp.com/index.php?action=bascet" method="post">
         <input type="hidden" name = "goods_id" value="2">
         <img src="../asset/img/item1.png">
         <div class="description">Iron | 250 cm</div>

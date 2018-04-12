@@ -18,7 +18,7 @@ if(isset($_POST["add"])){
             $article['id'] = uniqid();
             $article['image'] =   upload($article['id']);
             if (save($article)) {
-                header("Location: https://damp-coast-13892.herokuapp.com/index.php?action=news");
+                header("Location: https://floating-sierra-58793.herokuapp.com/index.php?action=news");
             }
         }
     }

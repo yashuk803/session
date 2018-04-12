@@ -24,7 +24,7 @@ if(isset($_POST["add"])){
             $imag = upload($article['id']);
             $article['image'] = upload($article['id']);
             if (save($article)) {
-                header("Location: https://young-reef-81088.herokuapp.com/index.php?action=news");
+                header("Location: https://floating-sierra-58793.herokuapp.com/index.php?action=news");
             }
         }
     }
@@ -34,7 +34,7 @@ if(isset($_POST["del"])){
          unlink('upload/'.$_POST['files']);
     }
     delete($_POST['id']);
-    header("Location: https://young-reef-81088.herokuapp.com/index.php?action=news");
+    header("Location: https://floating-sierra-58793.herokuapp.com/index.php?action=news");
 }
 $page = './views/add.php';
 $title = 'add';
